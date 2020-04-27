@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid red;
+}
+
+.item{
+    margin: 5px;
+    padding: 50px;
+    height: 20px;
+    background-color: #ccc;
+}
+
+.diventaGiallo{
+    background-color: yellow;
+}
+
+.diventaVerde{
+    background-color: green;
+}
